@@ -1,3 +1,3 @@
 export const getBaseUrl = () => {
-    return location.host;
+    return location.origin;
 };
